@@ -18,13 +18,17 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_development_dependency "bundler", "~> 1.3"
-  spec.add_development_dependency "rake"
+  spec.add_dependency 'endpoint_base'
+  spec.add_dependency 'pony'
+  spec.add_dependency 'savon'
+  spec.add_dependency 'httparty'
+  spec.add_dependency 'json'
+  spec.add_dependency 'multi_json'  
 
-#sinatra
+  spec.add_development_dependency "bundler", "~> 1.5"
+  spec.add_development_dependency "rake"
   spec.add_development_dependency 'sinatra'
   spec.add_development_dependency 'sinatra-contrib'
   spec.add_development_dependency 'tilt-jbuilder'
-  spec.add_development_dependency 'rack-test'
 
 end
