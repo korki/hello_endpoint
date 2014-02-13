@@ -1,4 +1,3 @@
-require 'hello_endpoint/version'
 require 'sinatra'
 require 'endpoint_base'
 require 'endpoint_base/sinatra'
