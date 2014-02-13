@@ -1,6 +1,6 @@
 {
-  "name": "echo",
-  "display": "Echo Test Endpoint",
+  "name": "hello",
+  "display": "Hello Test Endpoint",
   "description": "Testing endpoint",
   "help": "http://guides.spreecommerce.com/integration/endpoints/echo",
   "icon_url": "",
