@@ -2,5 +2,5 @@ require 'rubygems'
 require 'bundler'
 
 Bundler.require(:default)
-require "./hello_endpoint"
+require "./lib/hello_endpoint"
 run HelloEndpoint::Base

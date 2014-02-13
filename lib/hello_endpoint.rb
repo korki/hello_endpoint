@@ -1,6 +1,7 @@
 require 'hello_endpoint/version'
 require 'sinatra'
 require 'endpoint_base'
+require 'endpoint_base/sinatra'
 
 module HelloEndpoint
   class Base < EndpointBase::Sinatra::Base
